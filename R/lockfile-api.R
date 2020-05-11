@@ -99,6 +99,7 @@ str.renv_lockfile_api <- function(object, ...) {
 #'   a new one will be created based on the current project context. If you
 #'   want to create a blank lockfile, use `file = NA` instead.
 #'
+#' @export
 #' @seealso \code{\link{lockfiles}}, for a description of the structure of an
 #'   `renv` lockfile.
 #'
